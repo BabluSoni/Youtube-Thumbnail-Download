@@ -1,0 +1,118 @@
+        body {
+            font-family: 'Courgette', cursive;
+            background: url(youtube.png) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, .6);
+            background-blend-mode: overlay;
+        }
+        
+        .head-contents {
+            width: 100%;
+            height: 100vh;
+        }
+        
+        .buffer1 {
+            height: 15em;
+        }
+        
+        @media only screen and (max-width: 1180px) {
+            .buffer1 {
+                height: 10em;
+            }
+        }
+        
+        h1 {
+            font-weight: 800;
+            color: #ffc107;
+            font-size: 4em;
+        }
+        
+        hr {
+            border: 1px solid #E0A800;
+            max-width: 5em;
+        }
+        /*         
+        .buffer2 {
+            height: 5em;
+        } */
+        
+        .input-feild {
+            height: 50px;
+            width: 60%;
+            text-align: center;
+            margin-top: 80px;
+            margin-bottom: 15px;
+            margin-left: 20%;
+            border-radius: 50px;
+            outline: none;
+            border: none;
+        }
+        
+        @media only screen and (max-width: 1180px) {
+            .input-feild {
+                width: 80%;
+                margin-left: 10%;
+            }
+        }
+        
+        .btn {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            width: 170px;
+            padding: 15px;
+            outline: none!important;
+            border: none!important;
+        }
+        
+        .btn-st {
+            color: black;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-left: 42%;
+            transition: all 1s ease;
+        }
+        
+        @media only screen and (max-width: 1180px) {
+            .btn-st {
+                margin-left: 33%;
+            }
+        }
+        
+        .btn-st:hover {
+            transform: translateY(-5px);
+            border-radius: 50px;
+            color: #fff;
+        }
+        
+        .main-contents {
+            width: 100%;
+            height: 100%;
+            /* background: url(atmosphere.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover; */
+            background-color: #5d5d5a;
+            border-top-right-radius: 80px;
+            border-top-left-radius: 80px;
+        }
+        
+        .main-contents h2 {
+            text-align: center;
+            color: #ffc107;
+            font-size: 3rem;
+            margin-top: 100px;
+            margin-bottom: 30px;
+        }
+        
+        .main-contents img {
+            /* padding: 10px; */
+            border: 5px solid #fff;
+        }
+        
+        .buffer3 {
+            height: 70px;
+        }
